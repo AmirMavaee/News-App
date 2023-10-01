@@ -1,0 +1,45 @@
+.image-404{
+    margin: 5rem 0;
+    width: 100%;
+}
+.text-container{
+    text-align: center;
+}
+
+.text-container h1{
+    font-weight: 700;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.text-container h2{
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: rgb(180, 180, 180);
+    margin-top: 1rem;
+}
+
+.gohome{
+    font-weight: 700 !important;
+    margin-top: 2rem !important;
+}
+
+@media (min-width:450px) {
+    .image-404{
+        width: auto;
+    }   
+}
+
+
+@media (min-width:650px) {
+    .text-container{
+        width: 70%;
+    }    
+}
+
+
+@media (min-width:900px) {
+    .text-container{
+        width: 50%;
+    }    
+}
